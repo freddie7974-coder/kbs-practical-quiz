@@ -1,4 +1,4 @@
-# Intro to KBS: Space Mission Launch System
+# Knowledge Based Systems: Space Mission Launch System
 
 ## Description
 This is a mini Rule-Based Knowledge-Based System (KBS) built in Python. It uses a forward-chaining inference engine to determine if a space mission is cleared for launch based on propulsion, life support, crew, and weather conditions.
@@ -22,7 +22,7 @@ This is a mini Rule-Based Knowledge-Based System (KBS) built in Python. It uses 
 5. **IF** `internal_systems_go` **AND** `weather_clear` **THEN** `mission_launched`
 
 ## Final Decision Logic
-The final decision checks for the presence of the `mission_launched` fact. This fact is dynamically inferred only if all prerequisite systems (propulsion, life support, crew readiness, and weather) successfully chain together. If `mission_launched` exists in the final knowledge base, the system outputs "FINAL DECISION: MISSION LAUNCHED 🚀"; otherwise, it outputs "FINAL DECISION: LAUNCH ABORTED 🛑".
+The final decision checks for the presence of the `mission_launched` fact. This fact is dynamically inferred only if all prerequisite systems (propulsion, life support, crew readiness, and weather) successfully chain together. If `mission_launched` exists in the final knowledge base, the system outputs "FINAL DECISION: MISSION LAUNCHED "; otherwise, it outputs "FINAL DECISION: LAUNCH ABORTED ".
 
 ## Student Details
 **Name:** Fredrick Kisenge  
